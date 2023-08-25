@@ -1,0 +1,351 @@
+/* Body Section start */
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+/* Body Section end */
+
+
+/* Header Section start */
+.header-page{
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 70px; 
+    background-color: rgb(54, 77, 123);
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);  
+    margin-bottom: 4rem;
+    position: fixed;
+}
+/* Header Section end */
+
+
+/* Navbar Section start */
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    padding: 1em 0;
+}
+
+nav ul li {
+    margin-top: 7px;
+    display: inline-block;
+    margin-right: 20px;
+    
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: bold;
+    margin-left: 2rem;
+    font-size: 20px;
+    transition: color 0.3s;
+}
+
+nav ul li a:hover {
+    color: #fd8f11;
+}
+/* Navbar Section end */
+
+
+/* Company Introduction start */
+.content-introduction{
+    width: 100%;
+}
+
+.content-introduction .company-name{
+    text-align: center;
+}
+
+.content-introduction .company-name h1{
+    color: #fff;
+    font-size: 5rem;
+}
+
+.content-introduction .company-description{
+    margin-top: 4rem;
+    text-align: center;
+}
+
+.content-introduction .company-description h1{
+    color: #fff;
+}
+
+.content-introduction .multimedia-video{
+    width: 100%;
+    height: 300px;
+}
+
+.content-introduction .multimedia-video video{
+    width: 100%;
+    height: auto;
+}
+/* Company Introduction end */
+
+.sub-title{
+    margin-top: 600px;
+}
+
+.add-item {
+    position: absolute;
+    top: 6.5rem;
+    right: 120px;
+    width: 200px;
+    height: 50px;
+    background-color: #fd8f11;
+    border-radius: 15px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);  
+    transition: background-color 0.3s;
+}
+
+.preview-product h2{
+    margin-top: 100px;
+}
+
+.add-item:hover {
+    background-color: rgb(66, 194, 55);
+}
+
+.add-item>p {
+    position: relative;
+    color: white;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+
+/* Product Container section start */
+.flex-container{
+    margin-top: 80px; 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; 
+    max-width: 1200px;
+}
+
+.flex-container .flex-items{
+    margin: 20px;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    box-shadow: 6px 3px 10px;   
+    border-radius: 30px;
+    flex: 0 0 calc(33.33% - 100px); 
+    text-align: center;
+    transition: transform 0.3s ease;
+    height: 600px;
+}
+
+.flex-container .flex-items:hover{
+    transform: scale(1.1);
+}
+
+.flex-container .flex-items img{
+    width: 80%;
+    height: 200px;
+    margin: 0px 0px 10px 0px;
+    border-radius: 30px;
+}
+
+.flex-container .flex-items .product{
+    justify-content: center;
+    display: flex;
+    align-items: center;
+}
+
+.flex-container .flex-items .product .product-name{
+    display: inline-flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #e1e1e1, #113481);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 6px 3px 10px;
+    align-items: center;
+}
+
+.flex-container .flex-items .product-description{
+    text-align: justify;
+    padding: 20px;
+}
+/* Product Container section end */
+
+
+/* Add Items Form Container start */
+.form-container {
+    width: 800px;
+    margin: 50px auto;
+    background-color: #fff;
+    padding: 20px;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);  
+    border-radius: 5px;
+    margin-top: 9rem;
+}
+
+form {
+    display: grid;
+    gap: 10px;
+}
+
+.input-group {
+    display: flex;
+    flex-direction: column;
+    margin-top: 10px;
+    border-radius: 15px;
+}
+
+label {
+    font-weight: bold;
+    margin-bottom: 5px;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+    font-size: 14px;
+}
+
+button {
+    background-color: #fd8f11;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 14px;
+    border-radius: 10px;
+    transition: background-color 0.3s;
+}
+
+button:hover {
+    background-color: rgb(66, 194, 55);
+}
+/* Add Items Form Container end */
+
+
+/* About Us Section start */
+.title h1{
+    margin-top: 8rem;
+    color: #000000;
+    text-align: center;
+    padding: .5em 0;
+}   
+
+.about-us{
+    max-width: 1000px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 3rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.5);
+    text-align: justify;
+}
+
+.team-member {
+    margin-top: 30px;
+    display: flex;
+    align-items: center;
+    margin-bottom: 1em;
+}
+.team-member img {
+    width: 80px;
+    height: 80px;
+    border-radius: 35%;
+    margin-right: 1em;
+}
+/* About Us Section end */
+
+
+/* Contact Us Section start */
+.contact-us{
+    width: 1000px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #fff;
+    border-radius: 3rem;
+    text-align: justify;
+}
+
+.contact-us .contact-form {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.5);
+    border-radius: 5px;
+    text-align: center;
+}
+
+.contact-us .contact-form h1 {
+    margin-top: 0;
+}
+
+.contact-us .contact-form p {
+    font-size: 16px;
+}
+
+.contact-us .contact-form form {
+    margin-top: 50px;
+    display: grid;
+    gap: 10px;
+}
+
+.contact-us .contact-form input,
+.contact-us .contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+.contact-us .contact-form button {
+    background-color: #fd8f11;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 3px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+
+.contact-us .contact-form button:hover {
+    background-color: rgb(66, 194, 55);
+}
+/* Contact Us Section end */
+
+/* Footer Start */
+.footer-page{
+    bottom: 0;
+    margin-top: 100px; 
+    width: 100%; 
+    background-color: rgb(53, 78, 127);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15vh; 
+}
+
+.footer-page h1{
+    text-decoration: none;
+    color: white;
+    font-size: 1rem; 
+}
+/* Footer End */
+
+
+
+
