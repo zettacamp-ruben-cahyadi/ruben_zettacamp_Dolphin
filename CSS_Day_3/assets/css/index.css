@@ -1,0 +1,114 @@
+body {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+  }
+
+  /* Header */
+.page-header{
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100px; 
+    background-color: rgb(53, 78, 127);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 1);  
+    margin-bottom: 4rem;
+    position: fixed;
+}
+
+.page-header h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+    top: 0;
+}
+/* Header */
+
+/* Flex Container */
+.flex-container{
+    margin-top: 15vh; /* Viewport length */
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly; /* space evenly */
+    max-width: 1200px;
+}
+/* Flex Container */
+
+/* Flex Items */
+.flex-container .flex-items{
+    margin: 20px;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    box-shadow: 6px 3px 10px;   
+    border-radius: 30px;
+    flex: 0 0 calc(33.33% - 100px); 
+    text-align: center;
+    transition: transform 0.3s ease;
+    height: 560px;
+}
+
+.flex-container .flex-items:hover{
+    transform: scale(1.1);
+}
+
+.flex-container .flex-items img{
+    width: 80%;
+    height: 150pt; /* 200px | Absolute Length : Point */
+    margin: 0px 0px 10px 0px;
+    border-radius: 30px;
+}
+
+.flex-container .flex-items .product-description{
+    text-align: justify;
+    width: 270px;
+    margin: 0 auto;
+}
+
+.flex-container .flex-items .product-name{
+    display: inline-flex;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #e1e1e1, #113481);
+    color: white;
+    padding: 10px 20px;
+    border-radius: 20px;
+    box-shadow: 6px 3px 10px;
+    align-items: center;
+}
+
+.flex-container .flex-items .product{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/* Flex Items */
+
+
+/* Footer */
+.page-footer{
+    margin-top: 6.25pc; /* 100px | Absolute Length : Pica */
+    width: 100%;
+    height: 5.625pc; /* 90px | Absolute Length : Pica */
+    background-color: rgb(53, 78, 127);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 15vh; /* Viewport length */
+}
+
+.page-footer h1{
+    margin-top: 35px;
+    text-decoration: none;
+    color: white;
+    font-size: 1rem; /* 32px | Relative Length : Rem */
+}
+/* Footer */
+
+
