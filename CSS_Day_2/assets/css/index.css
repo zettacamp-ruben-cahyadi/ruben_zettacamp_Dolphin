@@ -1,0 +1,235 @@
+/* Universal Rules */
+*{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.m-0{
+    margin: 0 auto;
+}
+
+.b-r{
+    border-radius: 30px;
+}
+
+.d-f{
+    display: flex;
+}
+
+.t-a-justify{
+    text-align: justify;
+}
+
+.f-w{
+    font-weight: bold;
+}
+
+.m-l{
+    margin-left: 10px;
+}
+
+.m-r{
+    margin-right: 10px;
+}
+
+.m-t-0{
+    margin-top: 0px;
+}
+
+.m-b-0{
+    margin-bottom: 0px;
+}
+
+.p-t-1{
+    padding-top: 1rem;
+}
+
+.p-b-1{
+    padding-bottom: 1rem;
+}
+
+/* Header */
+.page-header{
+    top: 0;
+    z-index: 1;
+    width: 100%;
+    height: 100px;
+    background-color: rgb(53, 78, 127);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 1);  
+    margin-bottom: 4rem;
+    position: sticky;
+}
+
+.page-header h1{
+    text-align: center;
+    font-size: 2.5rem;
+    color: white;
+}
+/* Header */
+
+/* Container for Card 1 */
+.card-container-1{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card-container-1 .card-row-1{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    width: 27%;
+    margin: 20px;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    padding: 5px;
+    box-shadow: 6px 3px 10px;   
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+}
+
+.card-container-1 .card-row-1:hover{
+    transform: scale(1.1);
+}
+
+.card-container-1 .card-row-1 .product-name{
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #e1e1e1, #113481);
+    color: white;
+    padding: 10px 20px;
+    transform: translateZ(30px);
+    border-radius: 20px;
+    box-shadow: 6px 3px 10px;
+}
+
+.card-container-1 .card-row-1 img{
+    width: 100%;
+    height: 300px;
+    margin: 0px 0px 10px 0px;
+    border-radius: 30px;
+}
+/* Container for Card 1 */
+
+
+/* Container for Card 2 */
+.card-container-2{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card-container-2 .card-row-2{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    width: 27%;
+    margin: 20px;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    padding: 5px;
+    box-shadow: 6px 3px 10px;   
+    border-radius: 30px;
+    transition: transform 0.3s ease;
+}
+
+.card-container-2 .card-row-2:hover{
+    transform: scale(1.1);
+}
+
+.card-container-2 .card-row-2 .product-name{
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #e1e1e1, #113481);
+    color: white;
+    padding: 10px 20px;
+    transform: translateZ(30px);
+    border-radius: 20px;
+    box-shadow: 6px 3px 10px;
+}
+
+.card-container-2 .card-row-2 img{
+    width: 100%;
+    height: 300px;
+    margin: 0px 0px 10px 0px;
+    border-radius: 30px;
+}
+/* Container for Card 2 */
+
+/* Container for Card 3 */
+.card-container-3{
+    display: flex;
+    flex-wrap: wrap;
+    width: 70vw;
+    text-align: center;
+    margin: 0 auto;
+}
+
+.card-container-3 .card-row-3{
+    display: flex;
+    flex-direction: column;
+    height: 650px;
+    width: 27%;
+    margin: 20px;
+    border: 2px solid gray;
+    box-sizing: border-box;
+    padding: 5px;
+    box-shadow: 6px 3px 10px;   
+    border-radius: 30px;
+    transition: transform 0.3s ease;    
+}
+
+.card-container-3 .card-row-3:hover{
+    transform: scale(1.1);
+}
+
+.card-container-3 .card-row-3 .product-name{
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #e1e1e1, #113481);
+    color: white;
+    padding: 10px 20px;
+    transform: translateZ(30px);
+    border-radius: 20px;
+    box-shadow: 6px 3px 10px;
+}
+
+.card-container-3 .card-row-3 img{
+    width: 100%;
+    height: 300px;
+    margin: 0px 0px 10px 0px;
+    border-radius: 30px;
+}
+/* Container for Card 3 */
+
+/* Footer */
+.page-footer{
+    margin-top: 100px;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    background-color: rgb(53, 78, 127);
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.page-footer h1{
+    text-decoration: none;
+    color: white;
+    margin: 23px 10px;
+    font-size: 2rem;
+}
+/* Footer */
