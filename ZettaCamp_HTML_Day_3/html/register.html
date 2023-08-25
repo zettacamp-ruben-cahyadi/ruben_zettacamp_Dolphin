@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/register.css">
+    <title>Form</title>
+</head>
+
+<style>  
+
+</style>
+<body style="font-family: Arial, Helvetica, sans-serif; background-color: #f6e1cd" ">
+
+    <div style="text-align: center;"><span style="color:#714f32"><h1>&lt; REGISTER &gt;</h1></span></div>
+
+    <center>
+     
+        <form>
+            <table border="15" width="70%" style="padding: 2%; background-color: #f6e1cd;">
+                <tr>
+                    <td>Full Name :</td>
+                    <td><input type="text" id="user.f.name" placeholder="input your first name">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Email :</td>
+                    <td><input type="email" id="user.email" placeholder="input your email"></td>
+                </tr>
+
+                <tr>
+                    <td>Phone Number :</td>
+                    <td>
+                        <select>
+                            <option>+62</option>
+                            <option>+1</option>
+                            <option>+86</option>
+                            <option>+92</option>
+                            <option>+66</option>
+                        </select>
+                        <input type="phone" id="user.phone" placeholder="xxx-xxxx-xxxxx">
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Account Type :</td>
+                    <td>
+                        <input type="radio" name="accountType" id="user.Stat.Male"> Free
+                        <input type="radio" name="accountType" id="user.Stat.Female"> Personal
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>Biography</td>
+                    <td><textarea name="biography" id="user.bio" cols="40" rows="10" placeholder="input a short biography about you"></textarea></td>
+                </tr>
+
+                <tr>
+                    <td>Your Photo :</td>
+                    <td><input type="file" id="user.img" placeholder="upload your image here" accept="image/*"></td>
+                </tr>
+
+                <td>
+                    <div class="button-submit">
+                        <button>
+                            <a href="profile.html">Submit</a>
+                        </button> 
+                    </div>
+                </td>
+    
+            </table>
+        </form>
+
+    </center>
+</body>
+</html>
