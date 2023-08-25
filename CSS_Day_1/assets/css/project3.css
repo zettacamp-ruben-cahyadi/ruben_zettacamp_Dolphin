@@ -1,0 +1,50 @@
+body{
+    background-color: rgb(172, 48, 48);
+}
+
+main{
+    max-width: 1600px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #fed7bc;
+    border-radius: 3rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+    flex-direction: row;
+    display: flex;
+}
+
+.photo-profile img{
+    justify-content: left;
+    display: flex;
+    width: 400px;
+    border-radius: 20%;
+    margin-top: 50px;
+}
+
+.general-info{
+    width:1000px;
+    height:500px;
+    margin-top: 7rem;
+    margin-left: 15px;
+    padding-left:2rem;
+}
+
+.general-info h1{
+    margin: 0;
+}
+
+.general-info p{
+    font-size: 1.5rem;
+    text-align: justify;
+}
+
+.general-info p .span-1{
+    color: red;
+    font-size: 2rem;
+}
+
+.general-info p .span-2{
+    color: rgb(31, 12, 169);
+    font-size: 20px;
+}
+

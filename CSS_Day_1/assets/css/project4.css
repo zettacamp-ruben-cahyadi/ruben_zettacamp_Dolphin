@@ -1,0 +1,209 @@
+/* Universal rules */
+* {
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+  }
+
+main{
+    max-width: 1600px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #fed7bc;
+    border-radius: 3rem;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1);
+}
+
+body{
+    background-color: rgb(172, 48, 48);
+}
+
+/* Title h1 */
+h1{
+    text-align: center;
+    font-size: 4rem;
+}
+
+.description{
+    max-width: 1400px;
+    margin: 2em auto;
+    padding: 2em;
+    background-color: #fed7bc;
+    border-radius: 3rem;
+}
+
+.description p{
+    text-align: justify;
+    font-size: 2rem;
+}
+
+
+
+.pokemon-card-container{
+    flex-direction: row;
+    display: flex;
+    gap: 70px;
+}
+
+/* Pokemon card 1 */
+.pokemon-card-1 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 350px;
+    height: 530px;
+    background-color: #f8f7f2;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px 14px 14px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.pokemon-card-1:hover {
+    transform: scale(1.1);
+}
+
+/* Pokemon 1 image */
+.pokemon-card-1 img {
+    width: 300px;
+    height: 200px;
+    margin: 0px 0px 10px 0px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.pokemon-card-1 img:hover{
+    transform: scale(1.1);
+}
+
+/* Pokemon card 2 */
+.pokemon-card-2 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 350px;
+    height: 530px;
+    background-color: #f8f7f2;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px 14px 14px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.pokemon-card-2:hover{
+    transform: scale(1.1);
+}
+
+/* Pokemon 2 image */
+.pokemon-card-2 img {
+    width: 300px;
+    height: 200px;
+    margin: 0px 0px 10px 0px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.pokemon-card-2 img:hover{
+    transform: scale(1.1);
+}
+
+/* Pokemon card 3 */
+.pokemon-card-3 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 350px;
+    height: 530px;
+    background-color: #f8f7f2;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px 14px 14px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.pokemon-card-3:hover{
+    transform: scale(1.1);
+}
+
+/* Pokemon 3 image */
+.pokemon-card-3 img {
+    width: 300px;
+    height: 200px;
+    margin: 0px 0px 10px 0px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.pokemon-card-3 img:hover{
+    transform: scale(1.1);
+}
+
+/* Pokemon card 4 */
+.pokemon-card-4 {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 350px;
+    height: 530px;
+    background-color: #f8f7f2;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+    padding: 10px;
+    text-align: center;
+    box-shadow: 10px 14px 14px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+}
+
+.pokemon-card-4:hover{
+    transform: scale(1.1);
+}
+
+/* Pokemon 4 image */
+.pokemon-card-4 img {
+    width: 300px;
+    height: 200px;
+    margin: 0px 0px 10px 0px;
+    border-radius: 20px;
+    transition: transform 0.3s ease;
+}
+
+.pokemon-card-4 img:hover{
+    transform: scale(1.1);
+}
+
+
+.pokemon-name {
+    display: inline-block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    text-transform: uppercase;
+    background: linear-gradient(45deg, #ff5722, #9f112d);
+    color: white;
+    padding: 10px 20px;
+    transform: translateZ(30px);
+    border-radius: 30px;
+}
+
+
+.pokemon-type {
+    font-size: 18px;
+    color: #555;
+    margin-bottom: 10px;
+}
+
+
+.pokemon-stats {
+    font-size: 14px;
+}
+
+
+.pokemon-description p{
+    text-align: justify;
+    font-display: bold;
+}
+  
