@@ -1,0 +1,104 @@
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    font-size: 4rem; 
+    font-family: 'Rubik Iso', cursive;
+    color: #333; 
+    text-align: center; 
+    padding: 20px; 
+    margin: 0; 
+    border-radius: 10px; 
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1); 
+    margin-bottom: 25px;
+  }
+
+.container {
+    max-width: 1600px; 
+    margin: 0 auto;
+    padding: 20px;
+    text-align: center;
+    background-color: #ffffff; 
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8); 
+}
+
+table {
+    width: 100%;
+    border-collapse: inherit;
+    margin-top: 20px;
+    border: 20px;
+}
+
+th {
+    padding: 1rem 2rem;
+    text-align: center;
+    background-color: #f2f2f2;
+    border-bottom: 2px solid #ddd;
+    font-weight: bold;
+}
+
+td {
+    padding: 1.25rem 2rem; 
+    text-align: left;
+    border-bottom: 1px solid #f2f2f2; 
+}
+
+/* Styling for buttons */
+.btn {
+    padding: 12px 23px; 
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-left: 20px;
+}
+
+/* Update button */
+.btn-primary {
+    background-color: #3498DB;
+    color: white;
+}
+
+/* Add button */
+.btn-success {
+    background-color: #00B894;
+    color: white;
+}
+
+/* Delete button */
+.btn-danger {
+    background-color: #E74C3C;
+    color: white;
+    margin-top: 20px;
+}
+
+/* Cancel button */
+.btn-warning {
+    background-color: #CED4DA;
+    color: black;
+    margin-top: 1rem;
+}
+
+/* edit button */
+.btn-info {
+    background-color: #FFA500;
+    color: white;
+}
+
+.btn-xs {
+    font-size: 12px;
+}
+
+input[type="text"], input[type="number"], select {
+    width: 100%;
+    padding: 10px; 
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    margin-bottom: 15px; 
+    font-size: 14px; 
+}
+
+
